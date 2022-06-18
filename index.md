@@ -10,4 +10,5 @@ Some facts about me:
 * I use [Fedora](https://getfedora.org/) with the [Gnome](https://www.gnome.org/) desktop.
 * I really like [Open Source](https://www.redhat.com/en/topics/open-source/what-is-open-source/) projects and gaming.
 
+If you are interested in my projects, you can find an overview [here](https://unicornyrainbow.github.io/UnicornyRainbow/mzProjects/) or visit my [Github](https://github.com/UnicornyRainbow/).
 Feel free to [contact](https://unicornyrainbow.github.io/UnicornyRainbow/Contact/) me on the platform of your choice.
