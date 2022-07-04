@@ -1,4 +1,7 @@
 # My Projects
 
 Some info in advance: I'm still very much a beginner, and thats the reason, why currently all my projects are written in [Python](https://www.python.org/), using [Gtk4](https://blog.gtk.org/2020/12/16/gtk-4-0/) and [Libadwaita](https://blogs.gnome.org/alexm/2021/12/31/libadwaita-1-0/).
-I pakage everything with [flatpak](https://www.flatpak.org/), it is containered for more security and the advantage, that a single pakage can be used across [distributions](https://en.m.wikipedia.org/wiki/Linux_distribution) and [architectures](https://en.wikipedia.org/wiki/Instruction_set_architecture).
+I pakage everything with [Flatpak](https://www.flatpak.org/), it is containered for more security and the advantage, that a single pakage can be used across [distributions](https://en.m.wikipedia.org/wiki/Linux_distribution) and [architectures](https://en.wikipedia.org/wiki/Instruction_set_architecture).
+
+## [Codey](https://UnicornyRainbow.github.io/Codey)
+Codey is a small project I made for school. We learn some **very** basic [php](https://www.php.net/), [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [SQL](https://mariadb.org/) (Imagine do while loops and nothing more... why do I even go there??). Codey can automatically starts and ends the Php development server and can optionally start and end the MariaDB server. You can filter files by file ending, display and edit the code of the file (this feature does not support syntax highlighting but is intended for small fixes like a missing semicolon).
