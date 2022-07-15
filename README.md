@@ -1,3 +1,4 @@
 ### HI, I'm Unicorn
-🏳️‍🌈
-dumb, gay and learning 
+
+I'm a beginner programmer from Germany.
+I like Linux (using Fedora) and am learning mostly Python, Gtk and Flatpak.
