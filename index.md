@@ -11,4 +11,4 @@ Some facts about me:
 * I really like [Open Source](https://www.redhat.com/en/topics/open-source/what-is-open-source/) projects and gaming.
 
 If you are interested in my projects, you can find an overview [here](https://unicornyrainbow.github.io/UnicornyRainbow/myProjects/), visit my [Github](https://github.com/UnicornyRainbow/) or [Gitlab](https://gitlab.com/UnicornyRainbow).
-If you want to chat, feel free to contact me via mail (unicorn@fastmail.org).
+If you want to chat, feel free to contact me via [mail](mailto:unicorn@fastmail.org).
