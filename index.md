@@ -13,4 +13,8 @@ Some facts about me:
 * I really like [Open Source](https://www.redhat.com/en/topics/open-source/what-is-open-source/) projects and gaming.
 
 If you are interested in my projects, you can find an overview [here](https://unicornyrainbow.github.io/UnicornyRainbow/myProjects/), visit my [Github](https://github.com/UnicornyRainbow/) or [Gitlab](https://gitlab.com/UnicornyRainbow).
-If you want to chat, feel free to contact me via [mail](mailto:unicorn@fastmail.org).
+If you want to chat, feel free to contact me via [mail](mailto:unicorn@fastmail.org) or leave me a message on [Discord](https://discord.com/users/539502144450199594).
+
+---
+
+My profile picture is made with the [character maker](https://picrew.me/image_maker/626197/) from hunbloom on [Picrew](https://picrew.me/search/creator?crid=953491). Also check their amzing art on [Instagr](https://www.instagram.com/hunbloom/?utm_medium=copy_link) and [Twitter](https://twitter.com/hunblooms) out.
