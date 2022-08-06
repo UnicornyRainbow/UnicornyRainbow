@@ -1,6 +1,6 @@
 # UnicornyRainbow
 
-<img src="assets/me.jpg" style="border-radius: 50%"/>
+<img src="assets/me.png" style="border-radius: 50%"/>
 
 **Hi**, I'm UnicornyRainbow or just Unicorn in short.
 
