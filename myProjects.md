@@ -4,7 +4,7 @@ Some info in advance: I'm still very much a beginner, and thats the reason, why 
 I pakage everything with [Flatpak](https://www.flatpak.org/), it is containered for more security and the advantage, that a single pakage can be used across [distributions](https://en.m.wikipedia.org/wiki/Linux_distribution) and [architectures](https://en.wikipedia.org/wiki/Instruction_set_architecture).
 
 ## [Codey](https://UnicornyRainbow.github.io/Codey)
-Codey is a small project I made for school. We learn some **very** basic [php](https://www.php.net/), [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [SQL](https://mariadb.org/) (Imagine do while loops and nothing more... why do I even go there??). Codey can automatically starts and ends the Php development server and can optionally start and end the MariaDB server. You can filter files by file ending, display and edit the code of the file (this feature does not support syntax highlighting but is intended for small fixes like a missing semicolon).
+Codey is a small project I made for [school](https://github.com/UnicornyRainbow/School). We learn some **very** basic [php](https://www.php.net/), [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [SQL](https://mariadb.org/) (Imagine do while loops and nothing more... why do I even go there??). Codey can automatically starts and ends the Php development server and can optionally start and end the MariaDB server. You can filter files by file ending, display and edit the code of the file (this feature does not support syntax highlighting but is intended for small fixes like a missing semicolon).
 
 ## [Organizer](https://UnicornyRainbow.github.io/Organizer)
 
