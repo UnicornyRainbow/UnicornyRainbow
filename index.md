@@ -1,5 +1,4 @@
-# UnicornyRainbow
-<h1>UnicornyRainbow<img src="assets/me.png" align="right" style="border-radius: 50%; max-width: 10%"/></h1>
+<h1>UnicornyRainbow<img src="assets/me.png" align="right" style="border-radius: 50%; max-width: 5%"/></h1>
 
 <img src="assets/me.png" style="border-radius: 50%"/>
 
