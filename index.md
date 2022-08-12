@@ -1,6 +1,7 @@
 # UnicornyRainbow
 
 <img src="assets/me.png" style="border-radius: 50%"/>
+![me.png](assets/me.png){:style="border-radius: 50%;"}
 
 **Hi**, I'm UnicornyRainbow or just Unicorn in short.
 
