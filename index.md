@@ -1,5 +1,5 @@
 <head>
-  <link rel="shortcut icon" type="image/png" href="assets/favicon.png?">
+  <link rel="shortcut icon" type="image/png" href="assets/me.png?">
 </head>
 <h1>UnicornyRainbow<img src="assets/me.png" align="right" style="border-radius: 50%; max-width: 5%"/></h1>
 
