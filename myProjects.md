@@ -1,8 +1,81 @@
-# My Projects
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>UnicornyRainbow - My Projects</title>
+  <link rel="canonical" href="https://unicornyrainbow.github.io/UnicornyRainbow/myProjects" />
+  <meta property="og:url" content="https://unicornyrainbow.github.io/UnicornyRainbow/myProjects" />
+  <meta property="og:site_name" content="UnicornyRainbow" />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary" />
+  <meta property="twitter:title" content="UnicornyRainbow" />
+  <link rel="shortcut icon" type="image/png" href="assets/me.png?">
+  <link rel="stylesheet" href="/UnicornyRainbow/assets/css/style.css?v=dbb2dc5cc0b05a8b5e2579d51fdcb1bb59eca7fd">
+  <style>
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+      background-color: #333;
+    }
 
-Some info in advance: I'm still very much a beginner, and thats the reason, why currently all my projects are written in [Python](https://www.python.org/), using [Gtk4](https://blog.gtk.org/2020/12/16/gtk-4-0/) and [Libadwaita](https://blogs.gnome.org/alexm/2021/12/31/libadwaita-1-0/).
-I pakage everything with [Flatpak](https://www.flatpak.org/), it is containered for more security and the advantage, that a single pakage can be used across [distributions](https://en.m.wikipedia.org/wiki/Linux_distribution) and [architectures](https://en.wikipedia.org/wiki/Instruction_set_architecture).
+    nav li {
+      float: left;
+    }
 
+    nav li a {
+      display: block;
+      color: white;
+      text-align: center;
+      text-decoration: none;
+    }
+
+    .navbar-link {
+      padding: 14px 16px;
+    }
+
+    /* Change the link color to #111 (black) on hover */
+    nav li a:hover {
+      background-color: #111;
+    }
+    .active {
+      background-color: #04AA6D;
+    }
+ 	</style>
+</head>
+<body>
+<nav>
+  <ul>
+    <li>
+        <a href="https://unicornyrainbow.github.io/UnicornyRainbow"><img src="assets/me.png" style="border-radius: 50%; height: 48"/></a>
+    </li>
+    <li>
+        <a class="active" class="navbar-link" href="https://unicornyrainbow.github.io/UnicornyRainbow/myProjects">My Projects</a>
+    </li>
+    <li>
+        <a class="navbar-link" href="https://unicornyrainbow.github.io/Codey">Codey</a>
+    </li>
+    <li>
+        <a class="navbar-link" href="https://unicornyrainbow.github.io/Organizer">Organizer</a>
+    </li>
+    <li>
+        <a class="navbar-link" href="https://unicornyrainbow.github.io/Secrets">Secrets</a>
+    </li>
+  </ul>
+</nav>
+<div class="container-lg px-3 my-5">
+  <h1>My Projects</h1>
+  <hr/>
+  <p>
+    Some info in advance: I'm still very much a beginner, and thats the reason, why currently all my projects are written in <a href="https://www.python.org/">Python</a>, using <a href="https://blog.gtk.org/2020/12/16/gtk-4-0/">Gtk4</a> and <a href="https://blogs.gnome.org/alexm/2021/12/31/libadwaita-1-0/">Libadwaita</a>.
+    I pakage everything with <a href="https://www.flatpak.org/">Flatpak</a>, it is containered for more security and the advantage, that a single pakage can be used across <a href="https://en.m.wikipedia.org/wiki/Linux_distribution">distributions</a> and <a href="https://en.wikipedia.org/wiki/Instruction_set_architecture">architectures</a>.
+  </p>
+</div>
+</body>
+</html>
 ## [Codey](https://UnicornyRainbow.github.io/Codey)
 Codey is a small project I made for [school](https://github.com/UnicornyRainbow/School). We learn some **very** basic [php](https://www.php.net/), [HTML](https://developer.mozilla.org/en-US/docs/Web/HTML) and [SQL](https://mariadb.org/) (Imagine do while loops and nothing more... why do I even go there??). Codey can automatically starts and ends the Php development server and can optionally start and end the MariaDB server. You can filter files by file ending, display and edit the code of the file (this feature does not support syntax highlighting but is intended for small fixes like a missing semicolon).
 
