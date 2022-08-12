@@ -13,7 +13,7 @@ Some facts about me:
 * I really like [Open Source](https://www.redhat.com/en/topics/open-source/what-is-open-source/) projects and [gaming](https://steamcommunity.com/profiles/76561198362723192).
 
 If you are interested in my projects, you can find an overview [here](https://unicornyrainbow.github.io/UnicornyRainbow/myProjects), visit my [Github](https://github.com/UnicornyRainbow/) or [Gitlab](https://gitlab.com/UnicornyRainbow).
-If you want to chat, feel free to contact me via [mail](mailto:unicorn@fastmail.org) or leave me a message on [Discord](https://discord.com/users/539502144450199594) or [Steam](https://steamcommunity.com/profiles/76561198362723192).
+If you want to chat, feel free to contact me via [mail](mailto:unicornyrainbow@posteo.de) or leave me a message on [Discord](https://discord.com/users/539502144450199594) or [Steam](https://steamcommunity.com/profiles/76561198362723192).
 
 ---
 
