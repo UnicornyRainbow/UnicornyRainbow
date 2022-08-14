@@ -53,6 +53,14 @@ nav li a {
 nav li a:hover {
   background-color: #111;
 }
+
+code {
+  background: gray;
+  color: white;
+  border-radius: 5px;
+  padding: 2px;
+}
+
 .active {
   background-color: #ebd5c7;
   color: black;
