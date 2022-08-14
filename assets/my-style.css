@@ -19,49 +19,85 @@ img {
 }
 
 hr {
-  border-bottom: 1px solid #000;
+border-bottom: 1px solid #000;
+}
+
+a {
+color: #342f2d;
 }
 
 nav {
-  position: sticky;
-  top: 0;
+position: sticky;
+top: 0;
 }
 
 nav ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #342f2d;
+list-style-type: none;
+margin: 0;
+padding: 0;
+overflow: hidden;
+background-color: #342f2d;
 }
 
 nav li {
-  float: left;
+float: left;
 }
 
 nav li a {
-  display: block;
-  color: white;
-  text-align: center;
-  text-decoration: none;
+display: block;
+color: white;
+text-align: center;
+text-decoration: none;
 }
 
 .navbar-link {
-  padding: 14px 16px;
+padding: 14px 16px;
 }
 
 nav li a:hover {
-  background-color: #111;
+background-color: #111;
 }
 
 code {
-  background: gray;
-  color: white;
-  border-radius: 5px;
-  padding: 2px;
+background: gray;
+color: white;
+border-radius: 5px;
+padding: 2px;
 }
 
 .active {
-  background-color: #ebd5c7;
-  color: black;
+background-color: #ebd5c7;
+color: black;
+}
+
+@media (prefers-color-scheme: dark) {
+  body {
+    background-color: black;
+    color: white
+  }
+
+  body div {
+    background-color: #342f2d;
+  }
+  
+  hr {
+    border-bottom: 1px solid #fff;
+  }
+  
+  a {
+    color: #ebd5c7;
+  }
+  
+  nav ul {
+    background-color: #ebd5c7;
+  }
+  
+  nav li a {
+    color: black;
+  }
+  
+  .active {
+    background-color: #342f2d;
+    color: white;
+  }
 }
