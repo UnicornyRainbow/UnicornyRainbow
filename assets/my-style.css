@@ -72,6 +72,11 @@ background-color: #ebd5c7;
 color: black;
 }
 
+.profile-picture {
+  border-radius: 50%;
+  height: inherit;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     background-color: dimgray;
