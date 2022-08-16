@@ -23,12 +23,10 @@ hr {
   border-bottom: 1px solid #000;
 }
 
-a {
+div a {
   color: olivedrab;
-}
-
-a:hover {
-  text-decoration: none;
+  transition: all 0.2s;
+  padding: 0px 2px;
 }
 
 nav {
@@ -104,6 +102,24 @@ code {
   height: inherit;
 }
 
+a:hover {
+  text-decoration: none;
+}
+
+div a:hover {
+  background-color: #646a54;
+  color: black;
+  transition: all 0.2s;
+  padding: 2px;
+  border-radius: 5px;
+  
+}
+
+div h1 a:hover, div h2 a:hover, div h3 a:hover, div h4 a:hover, div h5 a:hover, div h6 a:hover {
+  padding: 2px 5px;
+  border-radius: 10px;
+}
+
 nav li:hover, .button:hover {
   background-color: #646a54;
   color: black;
@@ -146,7 +162,7 @@ nav li:hover, .button:hover {
     color: white;
   }
 
-  nav li:hover, .button:hover {
+  nav li:hover, div a:hover, .button:hover {
     color: white;
   }
 }
