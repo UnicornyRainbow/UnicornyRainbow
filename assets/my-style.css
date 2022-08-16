@@ -137,12 +137,11 @@ nav li:hover, button:hover {
   }
   
   button {
-  background: #24292e;
+  background: #ebd5c7;
   color: black;
 }
 
   nav li:hover, button:hover {
-    background-color: #ebd5c7;
     color: white;
   }
   
