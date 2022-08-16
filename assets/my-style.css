@@ -124,6 +124,12 @@ nav li:hover {
   nav li {
     color: black;
   }
+
+  nav li:hover {
+    background-color: #342f2d;
+    color: white;
+    transition: all 0.5s ease 0.1s;
+  }
   
   .active {
     background-color: #342f2d;
