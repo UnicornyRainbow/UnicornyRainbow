@@ -71,7 +71,18 @@ code {
   padding: 2px;
 }
 
-nav li:hover {
+button {
+  border: none;
+  border-radius: 15px;
+  padding: 10px 15px;
+  background: #24292e;
+  color: white;
+  text-align: center;
+  line-height: 15px;
+  font-size: 15px;
+}
+
+nav li:hover, button:hover {
   background-color: #646a54;
   color: black;
   transition: all 0.5s ease 0.1s;
@@ -124,9 +135,14 @@ nav li:hover {
   nav li {
     color: black;
   }
+  
+  button {
+  background: #24292e;
+  color: black;
+}
 
-  nav li:hover {
-    background-color: #646a54;
+  nav li:hover, button:hover {
+    background-color: #ebd5c7;
     color: white;
   }
   
