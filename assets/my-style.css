@@ -40,21 +40,23 @@ nav ul {
   padding: 0;
   overflow: hidden;
   background-color: #342f2d;
+  text-transform: uppercase;
+  height: 50px;
+  line-height: 50px;
+  letter-spacing: 2px;
+  font-weight: 600;
+  color: white;
+  text-align: center;
 }
 
 nav li {
   float: left;
-  text-transform: uppercase;
-  font-weight: 600;
-  height: 50px;
-  line-height: 50px;
-  color: white;
+  height: inherit;
+  margin-top: inherit;
 }
 
 nav li a {
   display: block;
-  text-align: center;
-  letter-spacing: 2px;
   text-transform: inherit;
   font-weight: inherit;
   height: inherit;
@@ -86,10 +88,10 @@ code {
 
 .sub-menu{
   text-transform: lowercase;
-  font-weight: inherit;
   margin-top: 10px;
   height: 40px;
   line-height: 40px;
+  display: inline;
 }
 
 .active {
@@ -146,9 +148,6 @@ nav li:hover, .button:hover {
   
   nav ul {
     background-color: #ebd5c7;
-  }
-  
-  nav li {
     color: black;
   }
   
