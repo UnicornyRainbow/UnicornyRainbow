@@ -71,6 +71,14 @@ code {
   padding: 2px;
 }
 
+.split-table {
+  width: 100%;
+}
+
+.split-table td {
+  width: 50%;
+}
+
 .button {
   border: none;
   border-radius: 10px !important;
