@@ -1,7 +1,3 @@
-html {
-  height: 100%;
-}
-
 body {
   height: 100%;
   margin-top: 1%;
@@ -69,13 +65,15 @@ code {
   padding: 2px;
 }
 
-.split-table {
+.half-split {
+  list-style-type: none;
   width: 100%;
+  overflow: hidden;
 }
 
-.split-table td {
-  width: 50%;
-  padding: 10px;
+.half-split li{
+  width: 100%;
+  float: left;
 }
 
 .button {
@@ -173,5 +171,25 @@ nav li:hover, .button:hover {
 
   nav li:hover, div a:hover, .button:hover {
     color: white;
+  }
+
+  @media all and (min-width: 600px) {
+    .half-split li {
+      width: 50%;
+    }
+  }
+  
+  @media (prefers-reduced-motion) {
+    nav li:hover, .button:hover {
+      transition: none;
+    }
+
+    div a:hover {
+      transition: none;
+    }
+
+    div a {
+      transition: none;
+    }
   }
 }
