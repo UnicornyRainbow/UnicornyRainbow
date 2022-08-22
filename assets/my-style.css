@@ -69,12 +69,12 @@ code {
   list-style-type: none;
   width: 100%;
   overflow: hidden;
-  padding 7px;
 }
 
 .half-split li{
   width: 100%;
   float: left;
+  padding: 7px;
 }
 
 .button {
