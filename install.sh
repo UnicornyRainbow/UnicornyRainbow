@@ -1,3 +1,3 @@
-cp .bashrc ~/.bashrc
-cp .nanorc ~/.nanorc
-cp config.con.neofetch ~/.config/neofetch/config.conf
+cp bashrc ~/.bashrc
+cp nanorc ~/.nanorc
+cp config.conf.neofetch ~/.config/neofetch/config.conf
