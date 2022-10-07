@@ -1,4 +1,4 @@
-### HI, I'm Unicorn
+### HI, I'm Unicorn (they/them)
 
 I'm a pan/nonbinary beginner programmer from Germany.
 
