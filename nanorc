@@ -130,7 +130,7 @@ set mouse
 # set punct "!.?"
 
 ## Make status-bar messages disappear after 1 keystroke instead of after 20.
-# set quickblank
+set quickblank
 
 ## The regular expression that matches quoting characters in email
 ## or line-comment introducers in source code.  The default is:
@@ -201,7 +201,7 @@ set trimblanks
 
 ## Let an unmodified Backspace or Delete erase the marked region (instead
 ## of a single character, and without affecting the cutbuffer).
-# set zap
+set zap
 
 ## Hide the bars plus help lines and use the whole terminal as edit area.
 # set zero

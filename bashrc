@@ -10,7 +10,7 @@ export PS1="\[\e[35m\]\# > \[\e[33m\]\t >\[\e[36m\] \W >\`if [ \$? != 0 ]; then 
 # User specific environment
 if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
 then
-    PATH="$HOME/.local/bin:$HOME/bin:$PATH"
+    PATH="$HOME/.local/bin:$HOME/bin:$HOME/.local/share/flatpak/exports/bin:/var/lib/flatpak/exports/bin:/usr/local/texlive/2022/bin/x86_64-linux:$PATH"
 fi
 export PATH
 
@@ -31,9 +31,15 @@ unset rc
 # aliases
 
 alias gimme='sudo dnf install'
-alias getout='sudo dnf remove'
+alias yeet='sudo dnf remove'
 alias news='sudo dnf upgrade'
 alias clean='sudo dnf autoremove'
 alias play='nvlc ./'
 
 hyfetch
+
+#PATH="/home/unicorn/perl5/bin${PATH:+:${PATH}}"; export PATH;
+#PERL5LIB="/home/unicorn/perl5/lib/perl5${PERL5LIB:+:${PERL5LIB}}"; export PERL5LIB;
+#PERL_LOCAL_LIB_ROOT="/home/unicorn/perl5${PERL_LOCAL_LIB_ROOT:+:${PERL_LOCAL_LIB_ROOT}}"; export PERL_LOCAL_LIB_ROOT;
+#PERL_MB_OPT="--install_base \"/home/unicorn/perl5\""; export PERL_MB_OPT;
+#PERL_MM_OPT="INSTALL_BASE=/home/unicorn/perl5"; export PERL_MM_OPT;
