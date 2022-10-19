@@ -19,5 +19,6 @@ cp mermaid.nanorc ~/.config/nano/python.nanorc
 cp config.fish ~/.config/fish/config.fish
 cp fish_variables ~/.config/fish/fish_variables
 cp fish_prompt.fish ~/.config/fish/functions/fish_prompt.fish
+cp fish_greeting.fish ~/.config/fish/functions/fish_greeting.fish
 
 echo "Done"

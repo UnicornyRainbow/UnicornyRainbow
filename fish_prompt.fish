@@ -3,7 +3,7 @@ function fish_prompt
     # - green lines if the last return command is OK, red otherwise
     # - your user name, in red if root or yellow otherwise
     # - your hostname, in cyan if ssh or blue otherwise
-    # - the current path (with prompt_pwd)
+    # - the current path (with $PWD)
     # - date +%X
     # - the current virtual environment, if any
     # - the current git status, if any, with fish_git_prompt
@@ -12,13 +12,13 @@ function fish_prompt
 
     # It goes from:
     # ┬─[nim@Hattori:~]─[11:39:00]
-    # ╰─>$ echo here
+    # ╰─> echo here
 
     # To:
     # ┬─[nim@Hattori:~/w/dashboard]─[11:37:14]─[V:django20]─[G:master↑1|●1✚1…1]─[B:85%, 05:41:42 remaining]
     # │ 2    15054    0%    arrêtée    sleep 100000
     # │ 1    15048    0%    arrêtée    sleep 100000
-    # ╰─>$ echo there
+    # ╰─> echo there
 
     set -l retc red
     test $status = 0; and set retc green
@@ -53,7 +53,7 @@ function fish_prompt
     if functions -q fish_is_root_user; and fish_is_root_user
         set_color -o red
     else
-        set_color -o yellow
+        set_color -o brred
     end
 
     echo -n $USER
@@ -61,14 +61,22 @@ function fish_prompt
     echo -n @
 
     if test -z "$SSH_CLIENT"
-        set_color -o blue
+        set_color -o bryellow
     else
         set_color -o cyan
     end
 
     echo -n (prompt_hostname)
+    #set_color -o white
+    #echo -n :
+    #set_color -o brblue
+    #echo -n 1
+    #set_color -o white
+    #echo -n :($PWD)
     set_color -o white
-    echo -n :(prompt_pwd)
+    echo -n :
+    set_color -o brblue
+    echo -n $PWD
     set_color -o green
     echo -n ']'
 
@@ -133,7 +141,8 @@ function fish_prompt
     set_color normal
     set_color $retc
     echo -n '╰─>'
-    set_color -o red
-    echo -n '$ '
+    #set_color -o red
+    #echo -n '$ '
+    echo -n ' '
     set_color normal
 end
