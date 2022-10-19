@@ -5,7 +5,7 @@ if [ -f /etc/bashrc ]; then
 	. /etc/bashrc
 fi
 
-export PS1="\[\e[35m\]\# > \[\e[33m\]\t >\[\e[36m\] \W >\`if [ \$? != 0 ]; then echo '\a\[\e[1;31m\] error >'; fi\`\[\e[0;00m\] "
+export PS1="\[\e[35m\]\# > \[\e[33m\]\t >\`if [ \$? != 0 ]; then echo '\[\e[36m\] \W >\a\[\e[1;31m\] error\n>'; else echo '\[\e[36m\] \W\n>'; fi\`\[\e[0;00m\] "
 
 # User specific environment
 if ! [[ "$PATH" =~ "$HOME/.local/bin:$HOME/bin:" ]]
