@@ -1,4 +1,4 @@
-### HI, I'm Unicorn (they/them)
+### HI, I'm Unicorn ([they/them](https://unicornyrainbow.github.io/UnicornyRainbow/pronouns))
 
 I'm a pan/nonbinary beginner programmer from Germany.
 
