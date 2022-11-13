@@ -16,6 +16,10 @@ color brightmagenta "^(    |	)* ? ? ?(\*|\+|-|[1-9]+\.)( +|	)"
 color green "\*[^* 	][^*]*\*|_[^_ 	][^_]*_"
 color brightgreen "\*\*[^*]+\*\*|__[^_]+__"
 
+# Superscript and subscript
+color blue "~[^~]+~"
+color blue "\^[^~]+\^"
+
 # Strikethrough:
 color red "~~[^~]+~~"
 
