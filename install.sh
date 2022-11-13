@@ -1,24 +1,25 @@
 #!/bin/bash
-echo "Creating Dirs"
+echo "Creating dirs"
 mkdir ~/.config
 mkdir ~/.config/neofetch
 mkdir ~/.config/nano
 mkdir ~/.config/fish
 mkdir ~/.config/fish/functions
 
-echo "Copying Files"
+echo "Copying .*rc files"
 cp bashrc ~/.bashrc
-cp nanorc ~/.nanorc
+cp nano/nanorc ~/.nanorc
 
+echo "Copying neofetch files"
 cp config.conf.neofetch ~/.config/neofetch/config.conf
 
-cp clojure.nanorc ~/.config/nano/clojure.nanorc
-cp mermaid.nanorc ~/.config/nano/mermaid.nanorc
-cp mermaid.nanorc ~/.config/nano/python.nanorc
+echo "Copying *.nanorc files"
+cp nano/*.nanorc ~/.config/nano/
 
-cp config.fish ~/.config/fish/config.fish
-cp fish_variables ~/.config/fish/fish_variables
-cp fish_prompt.fish ~/.config/fish/functions/fish_prompt.fish
-cp fish_greeting.fish ~/.config/fish/functions/fish_greeting.fish
+echo "Copying fish files"
+cp fish/config.fish ~/.config/fish/config.fish
+cp fish/fish_variables ~/.config/fish/fish_variables
+cp fish/fish_prompt.fish ~/.config/fish/functions/fish_prompt.fish
+cp fish/fish_greeting.fish ~/.config/fish/functions/fish_greeting.fish
 
 echo "Done"
