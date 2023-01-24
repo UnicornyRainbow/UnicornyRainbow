@@ -2,6 +2,7 @@
 # https://github.com/dylanaraps/neofetch/wiki/Customizing-Info
 print_info() {
     info title
+    info local_ip
     
     info underline
 
@@ -19,7 +20,7 @@ print_info() {
     info "GPUwU" gpu
 #    info "GPUwU Driver" gpu_driver  # Linux/macOS only
     info "Wam" memory
-    info "SOwOng" song [[ "$player" ]] && prin "MUwU Player" "$player"
+#    info "SOwOng" song [[ "$player" ]] && prin "MUwU Player" "$player"
     info "IcOwOns/Theme" icons
 
     # info "Uptime" uptime
@@ -27,7 +28,6 @@ print_info() {
     # info "Battery" battery
     # info "Font" font
     # info "UwUsers" users
-    # info "Local IP" local_ip
     # info "Public IP" public_ip
     # info "Locale" locale  # This only works on glibc systems.
     # info "Terminal Font" term_font
