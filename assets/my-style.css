@@ -1,31 +1,12 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
-  margin-top: 1%;
-  margin-left: 1%;
-  margin-right: 1%;
+  margin-top: 1vh;
+  margin-left: 1vh;
+  margin-right: 1vh;
   background: whitesmoke;
-}
-
-body div {
-  min-height: calc(99vh - 50px);
-  background-color: #ebd5c7;
-}
-
-h2, h3, h4, h5, h6 {
-  margin-top: 40px;
-}
-
-img {
-   max-width: 100%;
-}
-
-hr {
-  border-bottom: 1px solid #000;
-}
-
-div a {
-  color: olivedrab;
-  transition: all 0.2s;
-  padding: 0px 2px;
 }
 
 nav {
@@ -59,6 +40,36 @@ nav li a {
   height: inherit;
   line-height: inherit;
   color: inherit;
+}
+
+body div {
+  max-width: 1012px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-top: 32px !important;
+  padding-bottom: 32px !important;
+  padding-left: 32px !important;
+  padding-right: 32px !important;
+  min-height: calc(100vh - 1vh - 50px);
+  background-color: #ebd5c7;
+}
+
+h2, h3, h4, h5, h6 {
+  margin-top: 40px;
+}
+
+img {
+   max-width: 100%;
+}
+
+hr {
+  border-bottom: 1px solid #000;
+}
+
+div a {
+  color: olivedrab;
+  transition: all 0.2s;
+  padding: 0px 2px;
 }
 
 code {
@@ -186,24 +197,24 @@ nav li:hover, .button:hover {
   nav li:hover, div a:hover, .button:hover {
     color: white;
   }
+}
 
-  @media all and (min-width: 600px) {
-    .half-split li {
-      width: 50%;
-    }
+@media all and (min-width: 600px) {
+  .half-split li {
+    width: 50%;
   }
-  
-  @media (prefers-reduced-motion) {
-    nav li:hover, .button:hover {
-      transition: none;
-    }
+}
 
-    div a:hover {
-      transition: none;
-    }
+@media (prefers-reduced-motion) {
+  nav li:hover, .button:hover {
+    transition: none;
+  }
 
-    div a {
-      transition: none;
-    }
+  div a:hover {
+    transition: none;
+  }
+
+  div a {
+    transition: none;
   }
 }
