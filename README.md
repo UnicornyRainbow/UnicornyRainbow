@@ -2,7 +2,7 @@
 
 I'm a pan/nonbinary beginner programmer from Germany.
 
-I like Linux (using Fedora) and am learning mostly Python, Gtk and Flatpak.
+I'm currently mostly learning rust and some webstuff, but I also work with python from time to time
 
 If you want to know more about me or what I do, why don't you visit my [website](https://unicornyrainbow.github.io/UnicornyRainbow)?
 
